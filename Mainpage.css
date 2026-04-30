@@ -1,0 +1,458 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+    align-items: center;
+   height: 50px;
+   width: 100%;
+   padding: 5px;
+   padding-left: 50px;
+   padding-right: 50px;
+   background-color: #f9f9f9;
+}
+nav>img{
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+}
+.nav-button{
+    color: white;
+    background-color: #fa5029;
+    font-size: 18px;
+    margin-right: 10px;
+    padding : 10px;
+    border-radius: 7px;
+    border:none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.nav-button:hover{
+    transform: scale(1.1);
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start;
+    height: 500px;
+    background-color: #fa5029;
+    background-image: url("https://optim.tildacdn.one/tild3834-3436-4465-a131-626431373761/-/resize/400x/-/format/webp/bolakay-min.png.webp");
+    background-repeat: no-repeat;
+    background-position-x: 85%;
+    background-position-y: 116%;
+    color:white;
+   padding-top: 70px;
+   transition: all 0.3s ease;
+   width: 100%;
+}
+header:hover{
+   background-position-x: 90%;
+} 
+header>p{
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+}
+form{
+    justify-self: self-start;
+    margin-top: 40px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+}
+form>input{
+    width: 300px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+}
+form>button{
+    width: 150px;
+    height: 40px;
+    background-color: #f9f9f9;
+    color: #fa5029;
+    font-size: 18px;
+    border-radius: 7px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+form>button:hover{
+    transform: scale(1.1);
+}
+.img{
+    transition: all 0.3s ease;
+}
+.img:hover{
+    transform: scale(1.1);
+}
+.subjects{
+    position: relative;
+    top: 50px;
+    margin: 0px auto;
+    height: 500px;
+    width: 70%;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.img-gen{
+    width:300px;
+    height: 200px;
+    border-radius: 0px 0px 20px 20px;
+    background-color: #fa5029;
+}
+.card-img-sub{
+    position: relative;
+    bottom : 58px;
+    left: 40px;
+    transition: all 0.3s ease;
+}
+.card-img-sub:hover{
+    left: 50px;
+}
+.subject{
+    width: 300px;
+    height: 430px;
+    padding-inline: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.see-btn{
+    width: 100%;
+    height: 40px;
+    background-color: #0d2237;
+    color: white;
+    font-size: 18px;
+    border-radius: 7px;
+    margin-top: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.see-btn:hover{
+    background-color: #fa5029;
+}
+.card-img-sub1{
+    width: 300px;
+    position: relative;
+    bottom: 105px;
+    left:0px;
+    transition: all 0.3s ease;
+}
+.card-img-sub1:hover{
+    left: 10px;
+}
+.card-img-sub2{
+   position: relative;
+    bottom : 57px;
+    left: 40px;
+    transition: all 0.3s ease;
+}
+.card-img-sub2:hover{
+    left: 50px;
+}
+.numberofstudents{
+    height: 400px;
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    background-image: url("https://static.tildacdn.one/tild6634-3163-4137-a330-663666333534/63.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:100%;
+    justify-content: space-around;
+    padding-block: 30px;
+}
+.students{
+    align-self: self-end;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding : 30px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.students:hover{
+    transform: scale(1.1);
+}
+.bitirunchilar{
+    align-self: self-start;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding : 30px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.bitirunchilar:hover{
+    transform: scale(1.1);
+}
+.teacher{
+    align-self: self-end;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding : 30px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+.teacher:hover{
+    transform: scale(1.1);
+}
+.number{
+    font-size: 40px;
+    color: #fa5029;
+}
+.teach{
+    margin-top: 30px;
+    text-align: center;
+}
+.ustozlar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding:20px;
+    margin: 0px auto;
+    gap:10px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.2);
+}
+.ustoz{
+    width:300px; 
+}
+.ustoz>img{
+    width: 100%;
+    border-radius: 20px;
+    transition: all 0.3s ease;
+}
+.ustoz>img:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px black;
+}
+.abt{
+  text-align: center;  
+}
+.vid{
+    width: 100%;
+    height: 600px;
+}
+.abt-card{
+    display:flex;
+    flex-direction: column;
+    gap:50px;
+    border: 2px solid black;
+    margin: 0px auto;
+    padding: 20px;
+    background-color: #0d2237;
+    color:#f9f9f9;
+    width: 80%;
+    border-radius: 20px;
+}
+.matn1{
+    width: 600px;
+}
+.matn2{
+    width: 300px;
+}
+.card-top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card-top-img{
+    width: 600px;
+}
+iframe{
+    border-radius: 10px;
+}
+.card-bottom{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.diplom-card{
+    width: 50%;
+    height: 400px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px black;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    background-image: url("https://static.tildacdn.one/tild3333-3731-4264-b337-343139316561/sertifikat_1.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+.diplom-card>img{
+     width: 350px;
+     height: 200px;
+}
+.dipmatn{
+    width: 600px;
+    text-align: center;
+}
+.ustun1{
+    background-color: #fa5029;
+    text-align: center;
+    color:#f9f9f9;
+    width: 400px;
+    height: 130px;
+    border-radius: 10px;
+    position: absolute;
+    left: 290px;
+}
+.ustun2{
+   background-color: #fa5029;
+    text-align: center;
+    color:#f9f9f9;
+    width: 400px;
+    height: 130px;
+    border-radius: 10px;
+    position: absolute;
+    left: 830px;
+}
+footer{
+    background-color: #0d2237;    
+    width: 100%;
+    height: 500px;
+    margin-top: 170px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.infores{
+    background-color: #f9f9f9;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+
+}
+.logoxbtn{
+    width: 35%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:10px;
+}
+.logoxbtn>button{
+    position: absolute;
+    top:3599px;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+    border:none;
+    background-color: #fa5029;
+    color:#f9f9f9;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.logoxbtn>button:hover{
+    transform: scale(0.95);
+    background-color: #0d2237;
+}
+.info{
+    display: flex;
+    flex-direction: row;
+}
+.contacts{
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-inline: 20px;
+    line-height: 5px;
+
+}
+.socialmedia{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    justify-content: center;
+}
+
+.reserved{
+    padding-top: 10px;
+    text-align: center;
+    line-height: 5px;
+    font-size: 15px;
+}
+.modal {
+  display: none; /* boshida yopiq */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  width: 450px;
+  border-radius: 10px;
+  position: relative;
+}
+form{
+}
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+.form2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form2>input {
+  padding: 10px;
+  border:2px solid #f9f9f9;
+}
+
+.form2>button {
+  padding: 10px;
+  background: #fa5029;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

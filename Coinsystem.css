@@ -1,0 +1,60 @@
+body{
+   padding: 0;
+   margin: 0;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+    align-items: center;
+   height: 50px;
+   padding: 5px;
+   padding-left: 50px;
+   padding-right: 50px;
+   box-shadow: #fa5029 0px 20px 50px;
+   border-radius: 0px 0px 10px 10px;
+}
+nav>img{
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+}
+.nav-button{
+    color: white;
+    background-color: #fa5029;
+    font-size: 18px;
+    margin-right: 10px;
+    padding : 10px;
+    border-radius: 7px;
+    border:none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.nav-button:hover{
+    transform: scale(1.1);
+}
+.abt-coinsytem{
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0,0.1);
+    text-align: center;
+}
+hr{
+    width:50%;
+}
+h1{
+    color:#fa5029;
+}
+.p{
+    font-size: 22px;;
+}
+.coin{
+    width: 25px;
+    height: 25px;
+    position:relative;
+    top: 5px;
+}
